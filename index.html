@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title"><h1>freeCodeCamp Survey Form</h1></div>
+    <i id="description">Thank you for taking the time to help us improve the platform</i>
+    <form id="survey-form">
+        <div class="form-group" >
+            <label for="" for="name" id="name-label" >Name</label><br>
+            <input id="name" type="text" placeholder="Enter your name" >
+        </div>
+        <div class="form-group" >
+            <label for="" for="name" id="email-label">Email</label><br>
+            <input id="name" type="email" placeholder="Enter your email" >
+        </div>
+        <div class="form-group" >
+            <label for="" for="name" id="number-label">Age<small>(optional)</small></label><br>
+            <input  id="name" type="number" max="60" min="10" placeholder="Enter your name" >
+        </div>
+        <div class="form-group" >
+            <label  for="name" >Which option best describes your current role?</label><br>
+            <select id="name"   type="text" placeholder="Select current role" >
+                <option  disabled selected value="slelect_current_role">Select current role</option>
+                <option value="sutent">Student</option>
+                <option value="job">Full time job</option>
+                <option value="learner">Full time learner</option>
+                <option value="nottosay">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div style="margin-left: -80px;" class="form-group">
+            <label for="">Would you recommend freeCodeCamp to a friend?</label><br>
+            <input type="radio" name="a" id="a"><label style="margin-left: 8px;"  for="a">Definitely</label><br>
+            <input type="radio" name="a" id="b"><label  style="margin-left: 8px;"  for="b">Maybe</label><br>
+            <input type="radio" name="a" id="c"><label  style="margin-left: 8px;"  for="c">Not sure</label><br>
+        </div>
+        <div class="form-group" >
+            <label for="" for="name" >Which option best describes your current role?</label><br>
+            <select id="name" type="text" placeholder="Select current role" >
+                <option  disabled selected value="select_an_option">Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="open">Open source</option>
+            </select>
+        </div>
+        <div style="margin-left: -80px;" class="form-group">
+            <label for="">Would you recommend freeCodeCamp to a friend?</label><br>
+            <input type="checkbox" name="a" id="d"><label style="margin-left: 8px;"  for="d">Front-end Projects</label><br>
+            <input type="checkbox" name="a" id="e"><label  style="margin-left: 8px;"  for="e">Back-end Projects</label><br>
+            <input type="checkbox" name="a" id="f"><label  style="margin-left: 8px;"  for="f">Data Visualization</label><br>
+            <input type="checkbox" name="a" id="g"><label style="margin-left: 8px;"  for="g">Challenges</label><br>
+            <input type="checkbox" name="a" id="h"><label  style="margin-left: 8px;"  for="h">Open Source Community</label><br>
+            <input type="checkbox" name="a" id="i"><label  style="margin-left: 8px;"  for="i">Gitter help rooms</label><br>
+            <input type="checkbox" name="a" id="j"><label style="margin-left: 8px;"  for="j">Videos</label><br>
+            <input type="checkbox" name="a" id="k"><label  style="margin-left: 8px;"  for="k">City Meetups</label><br>
+            <input type="checkbox" name="a" id="l"><label  style="margin-left: 8px;"  for="l">Wiki</label><br>
+            <input type="checkbox" name="a" id="m"><label style="margin-left: 8px;"  for="m">Forum</label><br>
+            <input type="checkbox" name="a" id="n"><label  style="margin-left: 8px;"  for="n">Additional Courses</label><br>
+        </div>
+        <div class="form-group" >
+            <label for="" for="name" >Any comments or suggestions?</label><br>
+            <textarea name="" id="name" cols="30" rows="10" placeholder="Enter your comment here..." ></textarea>
+        </div>
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>
